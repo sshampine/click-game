@@ -21,6 +21,8 @@ render() {
 				{this.state.players.map(player => (
 					<PlayerCard
 						image={player.image}
+						id={player.id}
+						key={player.id}
 					/>
 					))}
 			</Wrapper>

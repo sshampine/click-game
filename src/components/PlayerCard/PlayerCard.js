@@ -1,7 +1,8 @@
 import React from "react";
+import "./PlayerCard.css";
 
 const PlayerCard = props => (
-	<div>
+	<div className="card">
 		<img src={props.image} />
 	</div>
 
